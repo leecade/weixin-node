@@ -1,0 +1,32 @@
+{
+  "name": "weixin-node",
+  "version": "1.0.0",
+  "description": "微信(wechat)签名等后端接口封装(nodejs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leecade/weixin-node.git"
+  },
+  "author": "yuji <leecade@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leecade/weixin-node/issues"
+  },
+  "keywords": [
+    "weixin",
+    "wechat",
+    "signature"
+  ],
+  "homepage": "https://github.com/leecade/weixin-node",
+  "dependencies": {
+    "co-request": "^0.2.0",
+    "jsop": "^0.3.0",
+    "jssha": "^1.6.0"
+  },
+  "devDependencies": {
+    "co": "^4.4.0"
+  }
+}
