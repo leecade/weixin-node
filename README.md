@@ -4,32 +4,35 @@
 
 ### USAGE
 
-- getToken
+#### getToken
 
 通过 `appid` 和 `secret` 获取 `access_token`
 
-    + **appid**
-    + **secret**
-    + expires_in 强制指定缓存时间(默认缓存 7200 秒)
-    + update 是否强制服务端更新缓存
+- params
 
-return
+ + **appid**
+ + **secret**
+ + expires_in 强制指定缓存时间(默认缓存 7200 秒)
+ + update 是否强制服务端更新缓存
+
+- return
 
 ```
 { access_token: 'yqtqCpfmJOnbJM6i2_JeWK_-r28jvIgO0Pzk66IXpFXRKVqrrDoqCXrOE4G1wgGiSERMKQ2qTH7l9xwDD1O--bxxLh8ahXbgrhx67o4qUZ0',
   expires_in: 7200 }
 ```
 
-- getTicket
+#### getTicket
 
 通过 `access_token` 获取 `ticket`
 
-    + **access_token**
-    + expires_in 强制指定缓存时间(默认缓存 7200 秒)
-    + update 是否强制服务端更新缓存
-    
+- params
 
-return
+ + **access_token**
+ + expires_in 强制指定缓存时间(默认缓存 7200 秒)
+ + update 是否强制服务端更新缓存  
+
+- return
 
 ```
 { errcode: 0,
@@ -38,12 +41,14 @@ return
   expires_in: 7200 }
 ```
 
-- sign
+#### sign
 
 微信官方签名算法
 
-    + **ticket**
-    + **url**
+- params
+
+ + **ticket**
+ + **url**
 
 return
 
