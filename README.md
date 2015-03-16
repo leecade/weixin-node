@@ -2,6 +2,12 @@
 
 微信(wechat)签名等后端接口封装(nodejs)
 
+### require
+
+- node 0.11+ use `--harmony` flag to to access to generators
+
+> recommend [io.js](https://iojs.org/) for enjoy ES6 features
+
 ### USAGE
 
 #### getToken
