@@ -22,9 +22,9 @@
   ],
   "homepage": "https://github.com/leecade/weixin-node",
   "dependencies": {
-    "co-request": "^0.2.0",
+    "co-request": "^1.0.0",
     "jsop": "^0.3.0",
-    "jssha": "^1.6.0"
+    "jssha": "^2.2.0"
   },
   "devDependencies": {
     "co": "^4.4.0"
